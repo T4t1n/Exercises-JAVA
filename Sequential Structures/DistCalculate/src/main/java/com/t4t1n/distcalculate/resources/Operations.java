@@ -10,7 +10,7 @@ public class Operations {
     
     
     public static double distance(int hypotenuse, double angle) {
-        double cosAngle = Math.c(angle);
+        double cosAngle = Math.cos(Math.toRadians(angle));
         System.out.println(cosAngle);
         return hypotenuse * cosAngle;
     }
