@@ -54,6 +54,5 @@ public class RightTriangle {
                
                ------------------------------------------------------
                """.formatted(getHypotenuse(), getAngle(), getDistance());
-               
     }
 }
